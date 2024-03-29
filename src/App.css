@@ -340,6 +340,10 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  @media (max-width: 500px) {
+    margin-top: 10px;
+    height: fit-content;
+  }
 }
 
 .project-popup-overlay::before {
@@ -413,8 +417,7 @@ p {
   border-radius: 50%;
   transition: border-color 0.3s ease;
   @media (max-width: 770px) {
-    top: -5px; /* Maintain vertical position for small screens */
-    right: calc(50% - (width / 2));
+    top: -5px;
   }
 }
 
