@@ -79,8 +79,8 @@ const ProjectData = [
     imageSrc: project7,
     description:
       "My portfolio offers a glimpse into featuring my details, key projects and skills that highlight my capabilities",
-    projectLink: "https://react-quizweb.netlify.app",
-    GithubLink: "https://github.com/Udhayabanu97/filvoz",
+    projectLink: "https://udhaya-portfolio-website.netlify.app/",
+    GithubLink: "https://github.com/Udhayabanu97/portfolio-website",
     Technologies: "Html,CSS,Javascript,Bootstrap,React.js",
     type: "Portfolio",
   },

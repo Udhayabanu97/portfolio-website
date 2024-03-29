@@ -5,6 +5,10 @@ import { SiGmail } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 
 const Home = () => {
+  const openLink = (link) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <section id="home" className="home-section py-4 text-center">
       <div className="container mx-auto px-5">
@@ -30,13 +34,17 @@ const Home = () => {
               user interfaces.
             </p>
 
-            <a
-              href="/path/to/your/resume.pdf"
+            <span
               className="btn btn-resume btn-lg mb-3"
+              onClick={() =>
+                openLink(
+                  "https://drive.google.com/file/d/11u3i1Vf4MmGzTkn6hakzicr7mx7qfC-8/view?usp=sharing"
+                )
+              }
               download
             >
               Download Resume
-            </a>
+            </span>
             <ul className="list-unstyled me-4">
               <li className="pt-4">
                 <a href="mailto:udhaya06.n@gmail.com">
